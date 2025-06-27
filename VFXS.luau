@@ -1,4 +1,4 @@
-local VFX = {}
+local VFXS = {}
 
 function VFXS.bunny_VFX(part)
   -- скора! ждыть!
