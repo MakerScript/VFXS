@@ -659,6 +659,7 @@ function VFXS.bunny_VFX()
     HeadCenter1.Parent = BodyParts.Head
 end
 
+--[[ Фиксим
 function LightBurst_VFX()
     local ParticleEmitter_Head = Instance.new("ParticleEmitter")
     ParticleEmitter_Head.Name = "ParticleEmitter_Head"
@@ -708,7 +709,7 @@ function LightBurst_VFX()
         BodyParts.RightUpperArm,
         BodyParts.LeftUpperArm,
         BodyParts.RightUpperLeg,
-        BodyParts.Left.LeftUpperLeg
+        BodyParts.LeftUpperLeg
     }
 
     for _, part in pairs(targetParts) do
@@ -1263,5 +1264,6 @@ function LightBurst_VFX()
     Attachment2.Parent = BodyParts.HumanoidRootPart
     Attachment1.Parent = BodyParts.HumanoidRootPart
 end
+--]]
 
 return VFXS
