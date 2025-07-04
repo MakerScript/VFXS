@@ -52,8 +52,8 @@ export type Elements = {
 		Option: Elements	
 	},
 	AddButton: (self,Config: Button) -> {
-    Option: Elements
-  },
+        Option: Elements
+    },
 	AddColorPicker: (self,Config: ColorPicker) -> {
 		Option: Elements	
 	},
@@ -96,7 +96,7 @@ export type Button = {
 	Name: string,
 	Callback: (number) -> any,
 	Risky: boolean,
-  Option: boolean
+    Option: boolean
 }
 
 export type ColorPicker = {
